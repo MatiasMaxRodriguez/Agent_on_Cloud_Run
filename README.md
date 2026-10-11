@@ -34,13 +34,14 @@ Práctica creando un agente sencillo de consulta sobre el clima en distintas ciu
    gcloud services enable run.googleapis.com (Habilita la API de Cloud Run)
 
 6. Realizar el deploy con ADK utilizando desde la terminal el siguiente comando:
-
+   ```
    adk deploy cloud_run \
        --project=nombre_del_proyecto \
        --region=region_del_proyecto \
        --service_name=nombre_del_agente \
        --with_ui \
        /path_local/al/agente
+   ```
 
 ## Tecnologías utilizadas:
 
